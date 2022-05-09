@@ -193,7 +193,7 @@ app.post("/logout", async (req, res) => {
 
     }catch (e){
         res.sendStatus(500);
-        console.error("Problema nos servidor: ",e);
+        console.error("Problema no servidor: ",e);
     }
 })
 
